@@ -1,0 +1,46 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 500px;
+    justify-content: center;
+    align-items: center;
+}
+
+form{
+    
+    
+}
+
+form .form-control{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    padding: 10px;
+}
+
+form .form-control label{
+    margin-bottom: 10px;
+}
+
+form .form-control p{
+    visibility: hidden;
+    position: absolute;
+    top: 66%;
+    left: 6%;
+    color: #eb7f1a;
+}
+
+form .form-control.success{
+    border-color: #2ecc2e;
+}
+form .form-control.success input{
+    border-color: #2ecc2e;
+}
+form .form-control.error input{
+    border-color: #eb7f1a;
+}
+form .form-control.error p{
+    visibility: visible;
+    
+}
